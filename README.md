@@ -1,4 +1,4 @@
-# aries-sdk-python
+# aries-sdk-java
 
 This is the library that allows use of aries-sdk with Java.
 
