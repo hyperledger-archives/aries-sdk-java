@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+  <Appenders>
+    <Console name="console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d [%-6p] %C{1}.%M(%F:%L) - %m%n"/>
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <Root level="info" additivity="false">
+      <AppenderRef ref="console"/>
+    </Root>
+  </Loggers>
+
+</Configuration>
