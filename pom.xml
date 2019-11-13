@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.hyperledger.aries</groupId>
-  <artifactId>aries-sdk-pom</artifactId>
+  <artifactId>aries-sdk-java</artifactId>
   <packaging>pom</packaging>
   <version>0.1.0</version>
 
