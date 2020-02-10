@@ -1,6 +1,8 @@
 # aries-sdk-java
 
-This is the library that allows use of aries-sdk with Java.
+This is the library that allows use of aries-sdk with Java. The aries-sdk-core will have all the ledger related or 
+wallet related function or other core functions. aries-sdk-web is a web layer that calls the core module. Idea is so
+that it can be used as a cloud agent or a library in android.
 
 ## Contributions
 
