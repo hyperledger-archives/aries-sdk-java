@@ -8,7 +8,7 @@
 
   <parent>
     <groupId>com.hyperledger.aries</groupId>
-    <artifactId>aries-sdk-pom</artifactId>
+    <artifactId>aries-sdk-java</artifactId>
     <version>0.1.0</version>
   </parent>
 
