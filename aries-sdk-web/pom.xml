@@ -180,9 +180,6 @@
                 <configuration>
                     <destFile>${session.executionRootDirectory}/target/jacoco.exec</destFile>
                     <append>true</append>
-                    <excludes>
-                        <exclude>**org.drools*</exclude>
-                    </excludes>
                 </configuration>
                 <executions>
                     <execution>
