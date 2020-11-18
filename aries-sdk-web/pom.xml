@@ -38,7 +38,7 @@
         <commons-collections4>4.1</commons-collections4>
         <org-json>20140107</org-json>
         <hibernate-jpa>1.0.0.Final</hibernate-jpa>
-        <jsr310>2.8.6</jsr310>
+        <jsr310>2.9.8</jsr310>
         <liquibase>3.6.3</liquibase>
     </properties>
 
