@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Optional;
+import java.util.UUID;
 
 import static java.util.Optional.ofNullable;
 
@@ -14,7 +15,12 @@ public class AgentMessage {
     @SerializedName("@id")
     private String id;
 
-    AgentMessage(String type, String id) {
+    public AgentMessage(String type) {
+        this.type = type;
+        this.id = UUID.randomUUID().toString();
+    }
+
+    public AgentMessage(String type, String id) {
         this.type = type;
         this.id = id;
     }
