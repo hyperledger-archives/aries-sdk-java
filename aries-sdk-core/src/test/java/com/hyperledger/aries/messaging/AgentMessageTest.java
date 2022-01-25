@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.Optional;
 
-import static com.hyperledger.aries.messaging.connections.messages.MessageType.CONNECTION_INVITATION;
+import static com.hyperledger.aries.protocols.connections.MessageType.CONNECTION_INVITATION;
 import static org.junit.Assert.*;
 
 public class AgentMessageTest {
