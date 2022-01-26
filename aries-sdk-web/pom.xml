@@ -27,7 +27,7 @@
         <springfox-swagger2>2.8.0</springfox-swagger2>
         <hamcrest>1.3</hamcrest>
         <commons-lang>2.6</commons-lang>
-        <commons-io>2.5</commons-io>
+        <commons-io>2.7</commons-io>
         <javax.inject>1</javax.inject>
         <guava>23.0</guava>
         <groovy>2.4.12</groovy>
